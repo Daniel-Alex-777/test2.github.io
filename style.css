@@ -1,3 +1,8 @@
+body {
+    background-color: rgb(220, 219, 220);
+}
+
+
 .container {
     display: flex; justify-content: center;
    
@@ -54,8 +59,13 @@ list-style: none;
     
 }
 
-#Bib {
-    
+#Bible {
+    display: flex;
+    list-style: none;
+    justify-content:space-evenly;
+    gap: 
+
+
 }
 
 #Jes {
@@ -63,7 +73,89 @@ list-style: none;
     margin-top: 50px;
 }
 
+::first-letter {
+    color: red;
+    font-size: 45px;
+}
+
 #theBible {
     border: 2px solid black;
-    background: rgb(179, 237, 179);
+    background: rgb(59, 180, 59);
+    margin-bottom: 300px;
+    
+
 }
+
+li {
+    writing-mode:vertical-lr;
+}
+
+#mat {
+    box-shadow: 5px 5px 10px
+}
+
+#eph {
+    box-shadow: -5px -5px 10px   
+}
+
+#isa {
+    box-shadow: 1px 1px 10px   
+}
+
+li:hover {
+    background: purple;
+}
+
+.Jesus {
+    border: 4px solid black;
+    border-radius: 8px;
+    padding: 12px;
+margin-bottom: 3rem;
+}
+
+a {
+    display:flex;
+    justify-content: center;
+    box-shadow: 3px 3px 10px;
+    flex-shrink:0;
+    flex-wrap: wrap;
+}
+
+
+.bigdiv {
+    border: 2px solid ;
+    border-radius: 4px;
+    padding: 12px;
+    margin-bottom: 500px;
+    display: flex;
+    justify-content: center
+   
+    }
+
+    .bigdiv >div {
+        background-color:rgb(86, 128, 227);
+        border: 2px solid
+    }
+
+
+    h3 {
+        font-size: 100%;
+        color: black;
+        margin: 50%
+    }
+
+    .phone { 
+        
+      
+      background-image: url(images/first-github-live-website-showing.png);
+      height:1920px;
+      margin-bottom: 300px;
+      background-repeat:no-repeat;
+      border: 2px solid black;
+      padding: 100px;
+      display:flex;
+      justify-content: center;
+      flex-wrap: wrap;
+
+    }
+
