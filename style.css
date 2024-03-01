@@ -124,24 +124,39 @@ a {
 
 .bigdiv {
     border: 2px solid ;
-    border-radius: 4px;
+    
     padding: 12px;
-    margin-bottom: 500px;
-    display: flex;
-    justify-content: center
+    margin-bottom: 50px;
+    display:flex;
+    justify-content:space-around;
+    width: 100%;
+    min-height: 900px;
+    background-image: url(github-image-jesus.png);
+    background-size: cover;
+    border-radius: 8px;
+
+    
    
     }
 
-    .bigdiv >div {
-        background-color:rgb(86, 128, 227);
-        border: 2px solid
-    }
+    .bigdiv div {
+        background-color:rgb(219, 224, 233);
+        opacity: 30%;
+        border: 2px double whitesmoke;
+        border-radius: 24px;
+        height: 20%;
+        margin-top: 10%;
+        font-size: 40px;
+        padding: 24px;
+        box-shadow: 4px 4px 8px white
+        }
 
+        
 
     h3 {
         font-size: 100%;
-        color: black;
-        margin: 50%
+        color: rgb(87, 100, 77);
+        
     }
 
     .phone { 
