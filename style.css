@@ -1,0 +1,69 @@
+.container {
+    display: flex; justify-content: center;
+   
+    
+}
+
+
+
+
+.vertical {
+    color:rgb(107, 107, 238);
+    font-size: 50px;
+    writing-mode: vertical-lr;
+}
+
+
+.div {
+    margin: 0 auto;
+    
+
+}
+
+header {
+    
+
+}
+
+li {
+    border: 4px solid rgb(238, 238, 32);
+ 
+}
+
+a {
+    font-size: 25px;
+}
+
+ul {
+    border: 4px solid black;
+   
+
+}  
+
+.nav-list {
+   
+display: flex;
+gap: 1rem;
+margin: 0;
+padding: 0;
+list-style: none;
+}
+
+.nav-list li {
+    flex-grow: 1;
+    
+}
+
+#Bib {
+    
+}
+
+#Jes {
+    color: blue;
+    margin-top: 50px;
+}
+
+#theBible {
+    border: 2px solid black;
+    background: rgb(179, 237, 179);
+}
